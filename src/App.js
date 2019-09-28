@@ -3,6 +3,7 @@ import Layout from './hoc/Layout/Layout'
 import MyPlaces from './containers/containers/MyPlaces/MuPlaces'
 
 
+
 function App() {
   return (
     <Layout>

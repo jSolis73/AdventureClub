@@ -1,11 +1,30 @@
 .Layout {
 	height: 100vh;
 	display: flex;
-	flex-direction: column;
+	/* flex-direction: column; */
+	background: linear-gradient(90deg, rgb(127, 127, 226) 0%, rgb(255, 207, 103) 100%);
 }
 
 .Layout main {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
+}
+
+.Logo {
+	width: 200px;
+	height: 187px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.Title {
+	justify-content: center;
+	margin-left: 20%;
+	margin-top: 60px;
+	font-size: 40pt;
+}
+
+.Header {
+	display: flex
 }
